@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f6f6f6;
+    padding: 20px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    background: white;
+    border-radius: 20px;
+    position: relative; 
+    /* this makes absolute element stick to this box */
+}
+.card {
+    padding: 20px;
+    margin: 20px 0;
+    width: 230px;
+    border-radius: 12px;
+    color: #333;
+}
+.static-box {
+    background: #d7c9ff;
+    position: static;
+}
+.relative-box {
+    background: #c5f2d3;
+    position: relative;
+    left: 20px;     /* moves slightly right */
+}
+.absolute-box {
+    background: #ffd2b5;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.fixed-box {
+    background: #ffb3b3;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.sticky-box {
+    background: #bfe5ff;
+    position: sticky;
+    top: 0;
+}
